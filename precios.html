@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Precios</title>
+  <meta charset="utf-8"/>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+  <header id="header" class="header background"> <!--header-->
+    <div class="contenedor">
+      <figure class="logotipo">
+        <img src="images/invie.png" width="186" height="60" alt="Invie logotipo"/>
+      </figure>
+      <nav class="menu">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="index.html#guitarras">Guitarras</a>
+          </li>
+          <li>
+            <a href="precios.html">Precios</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section>
+    <div class="contenedor">
+      <table class="tabla">
+        <thead>
+          <tr>
+            <th>Modelo</th>
+            <th>Precio</th>
+            <th>Descripcion</th>
+          </tr>
+          <tbody>
+            <tr>
+              <td>Invie Classic</td>
+              <td>$1000</td>
+              <td>Una de las mejores guitarras en su tipo</td>
+            </tr>
+            <tr>
+              <td>Invie Classic</td>
+              <td>$1000</td>
+              <td>Una de las mejores guitarras en su tipo</td>
+            </tr>
+            <tr>
+              <td>Invie Classic</td>
+              <td>$1000</td>
+              <td>Una de las mejores guitarras en su tipo</td>
+            </tr>
+          </tbody>
+        </thead>
+      </table>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="contenedor">
+      <div class="contacto">
+        <img src="images/invie-white.png" alt="logotipo blanco"/>
+        <a href="tel:+51990304480"><strong>Telefono</strong> <span>990304480</span></a>
+        <a href="mailto:bryam.soto@unmsm.edu.pe"><strong>E-mail</strong> <span>bryam.soto@unmsm.edu.pe</span></a>
+      </div>
+      <form class="formulario">
+        <div class="col1">
+          <label for="nombre">Nombre</label>
+          <input type="text" required id="nombre" name="nombre"/>
+          <label for="email">Email</label>
+          <input type="email" required id="email" name="email"/>
+          <div class="sexo">
+            <label for="mujer">
+              <input type="radio" id="mujer" name="sexo" checked>Mujer
+            </label>
+            <label for="varon">
+              <input type="radio" id="varon" name="sexo">Varon
+            </label>
+          </div>
+          <div class="intereses">
+            <label for="cotizacion">
+              <input type="checkbox" id="cotizacion" name="intereses" value="cotizacion" checked>Cotizacion
+            </label>
+            <label for="reclamos">
+              <input type="checkbox" id="reclamos" name="intereses" value="reclamos">Reclamos
+            </label>
+            <label for="comentarios">
+              <input type="checkbox" id="comentarios" name="intereses" value="comentarios">Comentarios
+            </label>
+            <label for="otros">
+              <input type="checkbox" id="otros" name="intereses" value="otros">Otros
+            </label>
+          </div>
+        </div>
+        <div class="col2">
+          <label for="comentario">Asunto</label>
+          <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+          <input type="submit" value="Enviar" class="button"/>
+        </div>
+      </form>
+    </div>
+  </footer>
+</body>
+</html>
